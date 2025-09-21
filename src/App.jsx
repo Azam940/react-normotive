@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={404} />
+        <Route path="*" element="404" />
 
       </Routes>
     </BrowserRouter>
